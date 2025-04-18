@@ -3,7 +3,7 @@
 `default_nettype none
 
 module xc7a35t_top #(
-    parameter LED_COUNT = 16
+    parameter integer LED_COUNT = 16
 )(
     input  wire                 clk,
     output wire [LED_COUNT-1:0] led
