@@ -1,7 +1,6 @@
 name: Verilog Linter
 on:
   pull_request:
-  push:
 jobs:
   lint:
     runs-on: ubuntu-latest
