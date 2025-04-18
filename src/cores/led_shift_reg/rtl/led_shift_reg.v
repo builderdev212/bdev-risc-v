@@ -3,8 +3,8 @@
 `default_nettype none
 
 module led_shift_reg #(
-    parameter LED_COUNT = 16,
-    parameter COUNTER_WIDTH = 32
+    parameter integer LED_COUNT = 16,
+    parameter integer COUNTER_WIDTH = 32
 )(
     input  wire                 clk,
     output wire [LED_COUNT-1:0] led
